@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-img {
+  position: relative;
+}
+
+.img-card {
+  position: absolute;
+  top: 80px;
+  left: 150px;
+}
+
+.img-card-back{
+  position: relative;
+  z-index: 1;
+}
+
+.back-card {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  top: 350px;
+  left: 250px;
+  width: 450px;
+  height: 245px;
+}
+
+.p-cvc{
+  color:rgb(255, 255, 255);
+ position: absolute;
+ display: flex;
+ top: 108px;
+ left: 360px;
+ z-index: 1;
+}
+
+.informations-card {
+  right: 100px;
+  top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+}
+
+.div-date{
+  display: flex;
+  flex-direction: row;
+}
+
+.informations {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 220px;
+  left: 175px;
+  height: 100px;
+  width: 400px;
+  gap: 10px;
+  color: hsl(270, 3%, 87%);
+  font-size: 10px;
+}
+
+.size-p-card {
+  font-size: 30px;
+}
+
+.p-cards {
+  display: flex;
+  gap: 32px;
+}
+
+.informations-person {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  
+}
+
+.date-cvc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input {
+  padding: 5px;
+}
+
+.input-date-style {
+  width: 45px;
+  border: 1px solid hsl(270, 3%, 87%);
+  height: 30px;
+}
+
+.div-input-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-alerts{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100px;
+}
+
+.p-alert-number{
+  font-size: 100px;
+}
+
+label {
+  font-size: 14px;
+}
+
+.cvc {
+  display: flex;
+  flex-direction: column;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-houlder {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-number {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-cvc-style {
+  width: 130px;
+  border: 1px solid hsl(270, 3%, 87%);
+  height: 30px;
+}
+
+.btn-confirm {
+  height: 45px;
+  background-color: hsl(278, 68%, 11%);
+  border: 2px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.input-style-general {
+  border: 1px solid hsl(270, 3%, 87%);
+  height: 30px;
+  width: 300px;
+}

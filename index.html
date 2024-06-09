@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="backgound">
+        <div class="div-img">
+          <img class="img-background" src="images/bg-main-desktop.png" alt="" />
+        </div>
+        <div class="front-card">
+          <div>
+            <img class="img-card" src="images/bg-card-front.png" alt="" />
+          </div>
+          <div class="informations">
+            <div class="p-cards">
+              <p id="p-number-card-1" class="size-p-card">0000</p>
+              <p id="p-number-card-2" class="size-p-card">0000</p>
+              <p id="p-number-card-3" class="size-p-card">0000</p>
+              <p id="p-number-card-4" class="size-p-card">0000</p>
+            </div>
+            <div class="informations-person">
+              <p id="p-name" class="p-name">NOME ALEATÓRIO</p>
+              <div class="div-date">
+                <p id="p-month" class="p-date"></p>
+                <p id="p-year" class="p-date"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="back-card">
+          <img class="img-card-back" src="images/bg-card-back.png" alt="" />
+          <p id="p-cvc" class="p-cvc"></p>
+        </div>
+      </div>
+
+      <div class="informations-card">
+        <div class="card-houlder">
+          <label>CARDHOLDER NAME</label>
+          <input
+            id="input-name-card"
+            class="input-style-general"
+            type="text"
+            placeholder="e.g. Jane Appleseed"
+          />
+          <p id="p-alert-name"></p>
+        </div>
+        <div class="card-number">
+          <label>CARD NUMBER</label>
+          <input
+            id="input-number-card"
+            class="input-style-general"
+            type="text"
+            placeholder="e.g 1234 5678 9123 0000"
+          />
+          <p id="p-alert-number"></p>
+        </div>
+        <div class="date-cvc">
+          <div class="date">
+            <label>EXP. DATE (MM/YY)</label>
+            <div class="div-input-date">
+              <input
+                id="input-month"
+                class="input-date-style"
+                type="text"
+                placeholder="MM"
+              />
+              <input
+                id="input-year"
+                class="input-date-style"
+                type="text"
+                placeholder="YY"
+              />
+            </div>
+            <div class="div-alerts">
+              <p id="p-alert-date"></p>
+            </div>
+          </div>
+          <div class="cvc">
+            <label>CVC</label>
+            <input
+              id="input-cvc"
+              class="input-cvc-style"
+              type="text"
+              placeholder="e.g. 123"
+            />
+            <div class="div-alerts">
+              <p id="p-alert-cvc"></p>
+            </div>
+          </div>
+        </div>
+
+        <button id="btn-confirm" class="btn-confirm">Confirm</button>
+      </div>
+    </div>
+  </body>
+</html>
